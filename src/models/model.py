@@ -51,7 +51,7 @@ class ChatBot(object):
 
     def classify(self, sentence):
         results = self.model.predict([self.bow(sentence, self.words)])[0]
-        results = [[i, r] for i, r in enumerate(results) if r > 0.2]
+        results = [[i, r] for i, r in enumerate(results) if r > 0.7]
         results.sort(key=lambda x: x[1], reverse=True)
         return_list = []
         for r in results:
@@ -63,7 +63,7 @@ class ChatBot(object):
         if results:
             while results:
                 for i in self.intents["intents"]:
-                    if results[0][1] > 0.7:
+                    if results[0][1] > 0.8:
                         if i["tag"] == results[0][0]:
                             return random.choice(i["responses"])
                 results.pop(0)
