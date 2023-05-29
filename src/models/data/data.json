@@ -92,6 +92,106 @@
                 "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
                 "What did the buffalo say when his son left for college? Bison."
             ]
+        },
+        {
+            "tag": "Home",
+            "patterns": [
+                "Chuyển tới home",
+                "Trang home",
+                "Home",
+                "Trang chủ",
+                "Tôi muốn tới trang chủ"
+            ],
+            "responses": [
+                "Home"
+            ]
+        },
+        {
+            "tag": "Settings",
+            "patterns": [
+                "Chuyển tới Settings",
+                "Trang Settings",
+                "Settings",
+                "Profile Settings",
+                "Profile",
+                "Trang của tôi"
+            ],
+            "responses": [
+                "Settings"
+            ]
+        },
+        {
+            "tag": "Mycourse",
+            "patterns": [
+                "Chuyển tới My course",
+                "Trang My course",
+                "My course",
+                "Khóa học của tôi",
+                "course",
+                "Chuyển tới khóa học của tôi",
+                "Tôi muốn học bài"
+            ],
+            "responses": [
+                "Mycourse"
+            ]
+        },
+        {
+            "tag": "mygift",
+            "patterns": [
+                "Chuyển tới My gift",
+                "my gift",
+                "gift",
+                "Khuyến mãi",
+                "khuyển mãi của tôi",
+                "Tôi có khuyền mãi gì"
+            ],
+            "responses": [
+                "mygift"
+            ]
+        },
+        {
+            "tag": "Wallet",
+            "patterns": [
+                "Chuyển tới My Wallet",
+                "Wallet",
+                "My Wallet",
+                "Ví của tôi",
+                "Ví",
+                "Tới ví của tôi",
+                "Tới ví"
+            ],
+            "responses": [
+                "Wallet"
+            ]
+        },
+        {
+            "tag": "recharge",
+            "patterns": [
+                "Nạp tiền vào ví",
+                "Nạp tiền",
+                "recharge",
+                "Cộng tiền",
+                "Làm thế nào để nạp tiền?",
+                "Làm thế nào để nạp tiền vào ví của tôi?",
+                "Tôi muốn nạp tiền vào tài khoản?"
+            ],
+            "responses": [
+                "recharge"
+            ]
+        },
+        {
+            "tag": "transfer",
+            "patterns": [
+                "Chuyển tiền",
+                "Tới trang chuyển tiền",
+                "transfer",
+                "Làm thế nào để chuyển tiền?",
+                "Làm thế nào để chuyển tiền từ ví của tôi?",
+                "Tôi muốn chuyển tiền"
+            ],
+            "responses": [
+                "transfer"
+            ]
         }
     ]
 }
