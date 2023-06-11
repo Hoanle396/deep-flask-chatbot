@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 
 def loadInitNet():
-    data = pickle.load(open("D:/Code/DACN/chatbot/src/models/training_data", "rb"))
+    data = pickle.load(open("models/training_data", "rb"))
     train_x = data["train_x"]
     train_y = data["train_y"]
     words = data["words"]
@@ -29,9 +29,9 @@ class ChatBot(object):
     def __init__(self):
         self.net, self.words, self.classes = loadInitNet()
         model = tflearn.DNN(self.net, tensorboard_dir="tflearn_logs")
-        model.load("D:/Code/DACN/chatbot/src/models/main/model.tflearn")
+        model.load("models/main/model.tflearn")
         with open(
-            "D:/Code/DACN/chatbot/src/models/data/data.json", encoding="utf8"
+            "models/data/data.json", encoding="utf8"
         ) as json_data:
             self.intents = json.load(json_data)
         self.model = model
