@@ -1,11 +1,6 @@
-import pandas as pd
-from sklearn.preprocessing import OneHotEncoder
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
 import numpy as np
 import pickle
 import json
-from difflib import get_close_matches
 import tflearn
 import random
 import nltk
